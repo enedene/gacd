@@ -20,14 +20,14 @@ with the average of each variable for each activity and each subject.
 
 <h2>Running the script</h2>
 
-Download the data from the following <a 
-href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%
-20Dataset.zip">link</a>. Unzip and put the run_analysis.R script in the same 
-directory where you unzipped the zip file or set the appropriate path in first line of the code. Start R and
-run the analysis by typing:
+Put the run_analysis.R script in the same directory as <i>UCI HAR Dataset</i> directory 
+and run the script by typing:
 
     source("run_analysis.R")
     
+into R console. If it doesn't work, check the path, it's possible that you need to adopt the
+path for your specific OS.
+
 You should get "tidyData.txt" file as an output.
 
 Check the CodeBook.md for variable names and transformations made explanations.
